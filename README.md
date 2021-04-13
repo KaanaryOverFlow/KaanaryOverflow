@@ -2,7 +2,7 @@
 
 # Hi. I'm Mücahit Saratar
 
-```
+```py
 bits 64
 section .about
   skills:
