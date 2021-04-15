@@ -30,5 +30,6 @@ section .text
 wonder:
   push about
   push work
-  jmp hello_friend ; hello_friend(about)
+  push hello_friend
+  ret ; hello_friend(about)
 ```
