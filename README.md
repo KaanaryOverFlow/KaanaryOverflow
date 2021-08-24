@@ -11,12 +11,12 @@ section .about
     dq "exploit developer"
     dq "programmer"
   links:
-    dq https://www.linkedin.com/in/m%C3%BCcahit-saratar-1701bb198/
-    dq https://www.exploit-db.com/?author=11013
-    dq https://github.com/MucahitSaratar/researches
-    dq https://mucahitsaratar.github.io/
-    dq https://twitter.com/0x00deadbeef
-    dq https://medium.com/@Mr.deadbeef.py
+    dq "https://www.linkedin.com/in/m%C3%BCcahit-saratar-1701bb198/"
+    dq "https://www.exploit-db.com/?author=11013"
+    dq "https://github.com/MucahitSaratar/researches"
+    dq "https://mucahitsaratar.github.io/"
+    dq "https://twitter.com/0x00deadbeef"
+    dq "https://medium.com/@Mr.deadbeef.py"
   about_self:
     db "student"
     db "living in Bursa"
