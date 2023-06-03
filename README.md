@@ -19,8 +19,8 @@ section .about
     dq "https://medium.com/@Mr.deadbeef.py"
   about_self:
     db "student"
-    db "living in Bursa"
-    db "currently learning: pwn,reverse engineering, web development, music production and english"
+    db "living in the shell"
+    db "currently learning: pwn,reverse engineering, web development, music production, english and japanese"
   contact db 0x03
     discord dq "s/uçan_denizaltı/s-12/g#5154"
     twitter dq links[4]
