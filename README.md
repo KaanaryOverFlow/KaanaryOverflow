@@ -18,11 +18,9 @@ section .about
     dq "https://twitter.com/0x00deadbeef"
     dq "https://medium.com/@Mr.deadbeef.py"
   about_self:
-    db "student"
     db "living in the shell"
-    db "currently learning: pwn,reverse engineering, web development, music production, english and japanese"
+    db "currently learning: pwn, reverse engineering, web development, music production, english and japanese"
   contact db 0x03
-    discord dq "s/uçan_denizaltı/s-12/g#5154"
     twitter dq links[4]
     email dq "trregen222@gmail.com"
 section .text
