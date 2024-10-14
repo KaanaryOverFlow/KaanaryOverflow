@@ -1,6 +1,6 @@
-[![](https://github.com/MucahitSaratar/MucahitSaratar/blob/master/dinosaur.gif)](#)
+[![](https://github.com/KaanaryOverFlow/KaanaryOverFlow/blob/master/dinosaur.gif)](#)
 
-# Hi. I'm Mücahit Saratar
+# Hi. I'm Kaan Saratar
 
 ```py
 bits 64
@@ -11,25 +11,17 @@ section .about
     dq "exploit developer"
     dq "programmer"
   links:
-    dq "https://www.linkedin.com/in/m%C3%BCcahit-saratar-1701bb198/"
-    dq "https://www.exploit-db.com/?author=11013"
-    dq "https://github.com/MucahitSaratar/researches"
-    dq "https://mucahitsaratar.github.io/"
+    dq "https://github.com/KaanaryOverFlow/researches"
     dq "https://twitter.com/0x00deadbeef"
     dq "https://medium.com/@Mr.deadbeef.py"
-  about_self:
-    db "living in the shell"
-    db "currently learning: pwn, reverse engineering, web development, music production, english and japanese"
-  contact db 0x03
-    twitter dq links[4]
-    email dq "trregen222@gmail.com"
+
 section .text
   global wonder
 
 wonder:
   push about
   push work
-  push hello_friend
-  ret ; hello_friend(about)
+  push hello_
+  ret ; hello_(about)
 ```
 
