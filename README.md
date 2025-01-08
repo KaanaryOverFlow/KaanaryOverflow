@@ -10,10 +10,6 @@ section .about
     dq "0-day vulnerability hunter"
     dq "exploit developer"
     dq "programmer"
-  links:
-    dq "https://github.com/KaanaryOverFlow/researches"
-    dq "https://twitter.com/0x00deadbeef"
-    dq "https://medium.com/@Mr.deadbeef.py"
 
 section .text
   global wonder
